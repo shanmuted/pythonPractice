@@ -4,7 +4,7 @@ count=0
 for i in range (n):
      a.append([])
      for j in range(n):
-         a[i].append(int(input("enter")))
+         a[i].append(int(input("enter num")))
          #if(i==j):
            #count+=a[i][j]
          if(i+j==n-1):
