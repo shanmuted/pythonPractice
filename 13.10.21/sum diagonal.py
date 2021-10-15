@@ -5,8 +5,8 @@ for i in range (n):
      a.append([])
      for j in range(n):
          a[i].append(int(input("enter")))
-         #if(i==j):
-           #count+=a[i][j]
+         if(i==j):
+           count+=a[i][j]
          if(i+j==n-1):
              count+=a[i][j]
 
