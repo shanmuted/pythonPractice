@@ -1,4 +1,4 @@
-n1="abc"
+n1="ocean"
 n2="xyz"[::-1]
 n3=0
 for i in  range (len(n1)):
