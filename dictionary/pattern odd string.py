@@ -1,10 +1,10 @@
 a="ocean"
-len=len(a)
-for i in range(len):
-    j=len-1-i
-    for s in range(len):
-        if(s==i or s==j):
+for i in range(len(a)):
+    for j in range(len(a)):
+        if(j==i):
             print(a[i],end="")
+        elif(i+j== 4):
+            print(a[j],end="")
         else:
             print(" ",end="")
     print(" ")
