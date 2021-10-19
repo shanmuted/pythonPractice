@@ -6,5 +6,5 @@ for i in range(len(series)-1):
     else:
         print(series[i],count,end="")
         count=1
-#print(series[-1]+str(count)),end="")
+print((series[i]+str(count)),end="")
         
